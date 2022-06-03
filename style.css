@@ -1,0 +1,21 @@
+/* Variables */
+:root {
+    /* Color scheme */
+    --light_blue: #ceeaf7; /* Dark mode theme */
+    --darker_blue: #ccd7e4;
+    --light_pink: #d5c9df; /* Light mode theme */
+    --dark_pink: #dcb8cb;
+    /* Font weight'Inter' */
+    --light: font-weight: 200;
+    --regular: font-weight: 400;
+    --bold: font-weight: 700;
+
+}
+
+/* Universal format */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: var(--bold);
+}
