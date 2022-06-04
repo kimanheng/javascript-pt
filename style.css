@@ -1,21 +1,39 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap');
+/* Preformat */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
 /* Variables */
 :root {
-    /* Color scheme */
-    --light_blue: #ceeaf7; /* Dark mode theme */
-    --darker_blue: #ccd7e4;
-    --light_pink: #d5c9df; /* Light mode theme */
-    --dark_pink: #dcb8cb;
-    /* Font weight'Inter' */
+    /* Light mode theme*/
+    --body-color: #f8fafc;
+    --primary-color: #d5c9df;
+    --link-color: #ccd7e4;
+    --title-color: #dcb8cb;
+    --text-color: #333333;
+
+    /* Font weight 'Inter' */
     --light: font-weight: 200;
     --regular: font-weight: 400;
     --bold: font-weight: 700;
-
 }
 
-/* Universal format */
-* {
-    padding: 0;
-    margin: 0;
-    font-family: 'Inter', sans-serif;
-    font-weight: var(--bold);
+/* Selection */
+::selection {
+    background-color: var(--primary-color);
+    color: var(--body-color);
+}
+
+/* Dark mode theme*/
+body .dark {
+    --body-color: #f8fafc;
+    --primary-color: #d5c9df;
+    --link-color: #ccd7e4;
+    --title-color: #dcb8cb;
+    --text-color: #333333;
 }
