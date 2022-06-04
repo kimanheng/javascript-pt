@@ -22,7 +22,63 @@
       href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
     />
   </head>
+
   <body>
+    <!-- Navigation bar-->
+    <nav class="sidebar close">
+      <!-- Header content-->
+      <header>
+        <div class="image-text">
+          <!-- Logo-->
+          <span class="image">
+            <img src="images/ampersand.png" alt="logo" />
+          </span>
+          <!-- Brand & Author-->
+          <div class="text logo-text">
+            <span class="name">& And</span>
+            <span class="author">Kiman & Lyhour</span>
+          </div>
+        </div>
+        <i class="bx bx-chevron-right toggle"></i>
+      </header>
+      <!-- Menu content-->
+      <div class="menu-bar">
+        <div class="menu">
+          <ul class="menu-link">
+            <li class="nav-link">
+              <a href="#">
+                <i class="bx bx-home-alt icon"></i>
+                <span class="text nav-text">Home</span>
+              </a>
+            </li>
+            <li class="nav-link">
+              <a href="pages/contributions.html">
+                <i class="bx bx-donate-heart icon"></i>
+                <span class="text nav-text">Contributions</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- Bottom content-->
+        <div class="bottom-content">
+          <!-- Dark mode switch-->
+          <li class="mode">
+            <div class="sun-moon">
+              <i class="bx bx-moon icon moon"></i>
+              <i class="bx bx-sun icon sun"></i>
+            </div>
+            <span class="mode-text text">Dark mode</span>
+
+            <div class="toggle-switch">
+              <span class="switch"></span>
+            </div>
+          </li>
+        </div>
+      </div>
+    </nav>
+    <section class="home">
+      <div class="text">Home</div>
+    </section>
     <!-- Javascript-->
     <script src="main.js"></script>
   </body>
