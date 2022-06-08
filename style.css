@@ -16,7 +16,7 @@
     --sidebar-color: #fff;
     --primary-color: #d5c9df;
     --link-color: #ccd7e4;
-    --title-color: #dcb8cb;
+    --title-color: #918291;
     --text-color: #333333;
 
     /* Font weight 'Inter' */
@@ -286,7 +286,7 @@ body.dark .switch::before {
     top: 0;
     top: 0;
     left: 250px;
-    height: 100vh;
+    height: 300vh;
     width: calc(100% - 250px);
     background-color: var(--body-color);
     transition: var(--tran-05);
@@ -301,7 +301,7 @@ body.dark .switch::before {
 
 .sidebar.close~.home {
     left: 78px;
-    height: 100vh;
+    height: 300vh;
     width: calc(100% - 78px);
 }
 
