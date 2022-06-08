@@ -293,8 +293,8 @@ body.dark .switch::before {
 }
 
 .home .text {
-    font-size: 30px;
-    font-weight: var(--regular);
+    font-size: 38px;
+    font-weight: var(--bold);
     color: var(--text-color);
     padding: 12px 60px;
 }
