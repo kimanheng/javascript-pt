@@ -1,0 +1,34 @@
+/* Dark mode theme*/
+body.dark {
+  --body-color: #f8fafc;
+  --sidebar-color: #fff;
+  --primary-color: #d5c9df;
+  --link-color: #ccd7e4;
+  --title-color: #dcb8cb;
+  --text-color: #333333;
+}
+
+body.dark .sidebar header .toggle {
+  color: var(--text-color);
+}
+
+body.dark .sidebar li a:hover .icon,
+body.dark .sidebar li a:hover .text {
+  color: var(--text-color);
+}
+
+body.dark .mode .sun-moon i.sun {
+  opacity: 1;
+}
+
+body.dark .mode .sun-moon i.moon {
+  opacity: 0;
+}
+
+body.dark .switch::before {
+  left: 20px;
+}
+
+body.dark .home .text {
+  color: var(--text-color);
+}
