@@ -281,6 +281,7 @@ body.dark .switch::before {
     left: 20px;
 }
 
+/* Main Content */
 .home {
     position: absolute;
     top: 0;
