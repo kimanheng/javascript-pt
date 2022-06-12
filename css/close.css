@@ -1,0 +1,18 @@
+/* Closed sidebar function */
+.sidebar.close {
+  width: 88px;
+}
+
+.sidebar.close .text {
+  opacity: 0;
+}
+
+.sidebar.close .toggle {
+  transform: translateY(-50%) rotate(0deg);
+}
+
+.sidebar.close ~ .info {
+  left: 78px;
+  min-height: 105vh;
+  width: calc(100% - 78px);
+}

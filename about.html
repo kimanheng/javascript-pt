@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="css/dark.css" />
     <link rel="stylesheet" href="css/mod.css" />
     <link rel="stylesheet" href="css/close.css" />
+    <link rel="stylesheet" href="css/about.css" />
     <!-- Icons-->
     <link
       rel="stylesheet"
@@ -50,11 +51,11 @@
       <!-- Menu content-->
       <div class="menu-bar">
         <div class="menu">
-          <!-- Pages -->
+          <!--  -->
           <ul class="menu-link">
             <!-- Link to 'Home'-->
             <li class="nav-link">
-              <a href="">
+              <a href="index.html">
                 <i class="bx bx-home-alt icon"></i>
                 <span class="text nav-text">Home</span>
               </a>
@@ -75,7 +76,7 @@
             </li>
             <!-- Link to 'About'-->
             <li class="nav-link">
-              <a href="about.html">
+              <a href="">
                 <i class="bx bx-code-curly icon"></i>
                 <span class="text nav-text">About</span>
               </a>
@@ -115,33 +116,54 @@
     </nav>
     <section class="info">
       <div class="content">
-        <h3>Home</h3>
+        <h3>About Us</h3>
         <h1 class="text-typing">
-          I
+          Who
           <span
             class="txt-rotate"
             data-period="2000"
-            data-rotate='[ " want to know about..." ]'
+            data-rotate='[ " are we?" ]'
           ></span>
         </h1>
-        <div class="row">
-          <div class="column">
-            <h1><a href="books.html">Books</a></h1>
-          </div>
-          <div class="column">
-            <h1><a href="images.html">Showcase</a></h1>
-          </div>
-          <div class="column">
-            <h1><a href="about.html">Us</a></h1>
-          </div>
+        <br />
+        <p>We're high-school students at an international school.<br /></p>
+        <br />
+        <h3 id="contact">Contact Us</h3>
+        <div class="container">
+          <form action="action_page.php">
+            <label for="fname">First Name</label>
+            <input
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="Your name.."
+            />
+
+            <label for="lname">Last Name</label>
+            <input
+              type="text"
+              id="lname"
+              name="lastname"
+              placeholder="Your last name.."
+            />
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="australia">Cambodia</option>
+            </select>
+
+            <label for="subject">Subject</label>
+            <textarea
+              id="subject"
+              name="subject"
+              placeholder="Write something.."
+              style="height: 200px"
+            ></textarea>
+
+            <input type="submit" value="Submit" />
+          </form>
         </div>
       </div>
-      <footer>
-        <small
-          ><b>Made With ❣️ For Fun.</b><br />&copy; Copyright 2022, Kiman Heng,
-          Lyhour Taing. All Right Reserved</small
-        >
-      </footer>
     </section>
     <!-- javascript-->
     <script src="js/toggle.js"></script>
